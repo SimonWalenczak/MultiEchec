@@ -5,11 +5,24 @@ using System.Collections.Generic;
 using PlayerIOClient;
 
 
-public class GameManager : MonoBehaviour {
-
-	private Connection pioconnection;
+public class GameManager : MonoBehaviour
+{
+	public static GameManager Instance;
+	public MovableHandler movableHandler;
+	
+	public Connection pioconnection;
 	private List<Message> msgList = new List<Message>(); //  Messsage queue implementation
 	private bool joinedroom = false;
+
+	private void Awake()
+	{
+		if (Instance == null)
+			Instance = this;
+		else
+		{
+			Debug.LogError("There is already another GameManager in this scene !");
+		}
+	}
 
 	void Start() {
 		Application.runInBackground = true;
@@ -71,23 +84,17 @@ public class GameManager : MonoBehaviour {
 
 	void Update() {
 		// process message queue
-		foreach (Message m in msgList) {
-			switch (m.Type) {
-				case "REPONSE":
-					Debug.Log(m.GetString(0));
-					break;
-				//case "Chat":
-				//	ChatText(m.GetString(0) + " says: " + m.GetString(1), false);
-				//	break;
-			}
+		foreach (Message m in msgList) 
+		{
+			movableHandler.HandleMessage(m);
 		}
 
 		// clear message queue after it's been processed
 		msgList.Clear();
 	}
 
-	// private void OnDestroy()
-	// {
-	// 	pioconnection.Disconnect();
-	// }
+	private void OnDestroy()
+	{
+		pioconnection.Disconnect();
+	}
 }

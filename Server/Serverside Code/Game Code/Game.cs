@@ -46,10 +46,11 @@ namespace SimServer {
 		public override void GotMessage(Player player, Message message) {
 			switch(message.Type) {
 				// called when a player clicks on the ground
-				case "Move":
-					player.posx = message.GetFloat(0);
-					player.posz = message.GetFloat(1);
-					Broadcast("Move", player.ConnectUserId, player.posx, player.posz);
+				case "Testest":
+					int pieceIndex = message.GetInt(0);
+					float mouseX = message.GetFloat(1);  
+					float mouseY = message.GetFloat(2);
+					Broadcast("Testest", pieceIndex, mouseX, mouseY);
 					break;
 			}
 		}

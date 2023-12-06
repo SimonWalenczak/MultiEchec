@@ -10,3 +10,15 @@ C:\Users\simon.walenczak\Downloads\PlayerIO SDK.s2fG8FIPhRjoY9VN8wEadg\Unity3D\E
 C:\Users\simon.walenczak\Downloads\PlayerIO SDK.s2fG8FIPhRjoY9VN8wEadg\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Player.IO Test Server Project\obj\Debug\Test Server.pdb
 C:\Users\simon.walenczak\Downloads\PlayerIO SDK.s2fG8FIPhRjoY9VN8wEadg\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Player.IO Test Server Project\bin\Debug\SimServer.dll
 C:\Users\simon.walenczak\Downloads\PlayerIO SDK.s2fG8FIPhRjoY9VN8wEadg\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Player.IO Test Server Project\bin\Debug\SimServer.pdb
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\bin\Debug\Test Server.exe
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\bin\Debug\Test Server.pdb
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\bin\Debug\Player.IO Development Server.exe
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\bin\Debug\Player.IO GameLibrary.dll
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\bin\Debug\SimServer.dll
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\bin\Debug\SimServer.pdb
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\bin\Debug\Player.IO GameLibrary.xml
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\obj\Debug\Player.IO Test Server.csproj.AssemblyReference.cache
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\obj\Debug\Player.IO Test Server.csproj.CoreCompileInputs.cache
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\obj\Debug\Player.IO Test Server.csproj.CopyComplete
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\obj\Debug\Test Server.exe
+C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\obj\Debug\Test Server.pdb
