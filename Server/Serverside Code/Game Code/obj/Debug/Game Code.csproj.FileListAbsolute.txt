@@ -16,3 +16,6 @@ C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Game Code\o
 C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Game Code\obj\Debug\Game Code.csproj.CopyComplete
 C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Game Code\obj\Debug\SimServer.dll
 C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Game Code\obj\Debug\SimServer.pdb
+C:\Users\Simon\Documents\MultiEchec\Server\Serverside Code\Game Code\obj\Debug\SimServer.dll
+C:\Users\Simon\Documents\MultiEchec\Server\Serverside Code\Game Code\obj\Debug\Game Code.csproj.AssemblyReference.cache
+C:\Users\Simon\Documents\MultiEchec\Server\Serverside Code\Game Code\obj\Debug\Game Code.csproj.CoreCompileInputs.cache

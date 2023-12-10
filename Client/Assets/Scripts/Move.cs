@@ -1,19 +1,14 @@
+using PlayerIOClient;
 using UnityEngine;
 
-public class Move : MonoBehaviour
+public class Move : IFunction
 {
-    public MovableHandler movableHandler;
-    public int index;
-    public bool IsSelect;
-    
-    private void OnMouseDown()
+    public void Execute(Message message)
     {
-        Debug.Log("clique !");
-        IsSelect = !IsSelect;
-
-        if (IsSelect)
-        {
-            movableHandler.selectedPiece = this;
-        }
+        int oldPosX = message.GetInt(1);
+        int oldPosY = message.GetInt(2);
+        int newPosX = message.GetInt(3);
+        int newPosY = message.GetInt(4);
+        //GridManager.Instance.MovePawn(new Vector2Int(newPosX, newPosY), new Vector2Int(oldPosX, oldPosY));
     }
 }

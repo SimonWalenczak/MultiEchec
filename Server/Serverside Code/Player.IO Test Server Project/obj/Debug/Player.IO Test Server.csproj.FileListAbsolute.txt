@@ -22,3 +22,4 @@ C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO T
 C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\obj\Debug\Player.IO Test Server.csproj.CopyComplete
 C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\obj\Debug\Test Server.exe
 C:\Users\simon.walenczak\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\obj\Debug\Test Server.pdb
+C:\Users\Simon\Documents\MultiEchec\Server\Serverside Code\Player.IO Test Server Project\obj\Debug\Test Server.exe
